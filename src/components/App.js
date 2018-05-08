@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
+import BackGroundVideo from './BackGroundVideo'
+
 class App extends Component {
   render () {
     return (
-      <div className='App'>
-        <p>
-          HOME
-        </p>
+      <div>
+        <BackGroundVideo />
       </div>
     )
   }
