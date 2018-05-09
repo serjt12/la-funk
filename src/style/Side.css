@@ -1,0 +1,97 @@
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 200px) {
+  .redes {
+    display: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .social {
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+  }
+  .redes {
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .redes img {
+    width: 48%;
+  }
+}
+
+/*
+======================
+HAMBURGUER
+======================
+*/
+
+/* Position and sizing of burger button */
+
+@media (min-width: 200px) {
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 10px;
+    top: 20px;
+  }
+}
+
+@media (min-width: 750px) {
+  .bm-burger-button {
+    right: 105px;
+  }
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+  background: #fefefe;
+}
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+  height: 24px;
+  width: 100%;
+}
+
+/* Color/shape of close button cross */
+
+.bm-cross {
+  background: #fefefe;
+}
+
+/* General sidebar styles */
+
+.bm-menu {
+  background: rgba(106, 0, 111, .45);
+  padding: 2em 2.5em 0;
+  line-height: 2;
+  font-size: 1em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+
+.bm-morph-shape {
+  fill: rgb(0, 0, 0);
+}
+
+/* Wrapper for item list */
+
+.bm-item-list {
+  color: #fefefe;
+  padding: 0.8em;
+}
+
+/* Styling of overlay */
+
+.bm-overlay {
+  background: white;
+}

@@ -24,10 +24,10 @@ class TourDates extends Component { // eslint-disable-line react/prefer-stateles
               <img className='date' alt='date 1' src={frontDate1} />
             </div>
             <div>
-              <img className='date' alt='date 2'src={frontDate2} />
+              <img className='date' alt='date 3' src={frontDate3} />
             </div>
             <div>
-              <img className='date' alt='date 3' src={frontDate3} />
+              <img className='date' alt='date 2'src={frontDate2} />
             </div>
           </div>
         </div>
