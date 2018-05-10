@@ -1,0 +1,9 @@
+.home-container {
+  background: url('../images/fondo3.png') center no-repeat;
+  background-size: cover;
+  height: 1280px;
+}
+
+.home-logo {
+  width: 50%;
+}

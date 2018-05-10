@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { bubble as Menu } from 'react-burger-menu'
-import '../style/Side.css'
+import '../style/Hamburger.css'
 
 class Hamburger extends Component {
   render () {

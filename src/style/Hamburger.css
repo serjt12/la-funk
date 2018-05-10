@@ -19,13 +19,14 @@ a:visited {
     position: absolute;
     width: 36px;
     height: 30px;
+    top: 5px;
     right: 10px;
   }
 }
 
 @media (min-width: 568px) {
   .bm-burger-button {
-    width: 50px;
+    width: 40px;
     height: 40px;
     margin-top: 15px;
   }

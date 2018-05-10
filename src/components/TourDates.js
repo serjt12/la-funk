@@ -16,7 +16,6 @@ class TourDates extends Component { // eslint-disable-line react/prefer-stateles
   render () {
     return (
       <div className='dates-desk' id='dates-desk'>
-
         <div className='container-tourDates'>
           <div className='left-side'>
             <img className='tour-title-desk' src={Title} alt='Tour Dates' />
