@@ -6,7 +6,7 @@ class Hamburger extends Component {
   render () {
     return (
       <div>
-        <Menu right width={'250px'}>
+        <Menu right width={250}>
           <a id='home' className='menu-item' href='/'>HOME</a>
           <a id='about' className='menu-item' href='/about'>LA BANDA</a>
           <a id='merch' className='menu-item' href='/merch'>MERCH</a>
