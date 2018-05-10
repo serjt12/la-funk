@@ -1,0 +1,93 @@
+/*
+======================
+HAMBURGUER
+======================
+*/
+
+/* Position and sizing of burger button */
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: inherit;
+}
+
+@media (min-width: 200px) {
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 10px;
+  }
+}
+
+@media (min-width: 568px) {
+  .bm-burger-button {
+    width: 50px;
+    height: 40px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .bm-burger-button {}
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+  background: rgb(6, 248, 255);
+}
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+  height: 24px;
+  width: 100%;
+}
+
+/* Color/shape of close button cross */
+
+.bm-cross {
+  background: #fefefe;
+}
+
+/* General sidebar styles */
+
+.bm-menu {
+  background: rgba(106, 0, 111, .45);
+  padding: 2em 10em 1em 0;
+  line-height: 2;
+  font-size: 1em;
+}
+
+#tour-dates {
+  width: 500px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+
+.bm-morph-shape {
+  fill: rgb(0, 0, 0);
+}
+
+/* Wrapper for item list */
+
+@font-face {
+  font-family: 'Strasua';
+  src: local('strasua'), url(../utils/fonts/Strasua.ttf) format('truetype');
+}
+
+.bm-item-list {
+  color: rgb(0, 247, 255);
+  padding: 0.8em;
+  font-family: strasua;
+}
+
+/* Styling of overlay */
+
+.bm-overlay {
+  background: black;
+}

@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+}
+
+/*
+======================
+APP
+======================
+*/
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/*
+======================
+BACKGROUND VIDEO
+======================
+*/
+
+#background-video {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+@media (min-width: 200px) {
+  .content img {
+    width: 50%;
+    cursor: pointer;
+    position: relative;
+    bottom: 15px;
+  }
+  .content {
+    border-radius: 200px;
+    position: absolute;
+    color: #f1f1f1;
+    padding: 7px;
+  }
+}
+
+@media (min-width: 568px) {
+  .content img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .content img {
+    width: 80%;
+  }
+}
+
+/*
+======================
+ TOUR DATES
+======================
+*/
+
+@media (min-width: 200px) {
+  .BackGround-img {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+  }
+  .flecha {
+    display: none;
+  }
+  .dates-desk {
+    background-image: url('../images/deskbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-tourDates {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-side {
+    text-align: center;
+  }
+  .tour-title-desk {
+    width: 100%;
+    top: -5px;
+    position: relative;
+  }
+  .afro {
+    width: 80%;
+    left: 7px;
+    position: relative;
+    bottom: 100px;
+  }
+  .right-side-desk {
+    display: none;
+  }
+  .right-side-mob img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .right-side-mob {
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+  }
+  .date {
+    width: 98%;
+  }
+}
+
+@media (min-width: 568px) {
+  .dates-desk {
+    height: 827px;
+  }
+  .flecha {
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    left: 42%;
+    width: 15%;
+    cursor: pointer;
+  }
+  .flecha:hover {
+    width: 16%
+  }
+  .flecha-cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .flecha-cont a {}
+  .container-tourDates {
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 85px;
+  }
+  .right-side-mob {
+    display: none;
+  }
+  .left-side {
+    flex-direction: column;
+    display: flex;
+  }
+  .tour-title-desk {
+    width: 100%;
+    align-self: center;
+  }
+  .afro {
+    bottom: 92px;
+    align-self: center;
+  }
+  .date {
+    position: relative;
+    width: 100%;
+    top: 64px;
+    margin-bottom: 22px;
+  }
+  .right-side-desk {
+    text-align: center;
+    display: block;
+    position: relative;
+    left: -26px;
+  }
+}
+
+@media (min-width: 1180px) {
+  .BackGround-img {
+    height: 177%;
+  }
+  .container-tourDates {
+    flex-direction: row;
+    top: 0;
+  }
+  .left-side {
+    position: relative;
+    left: -42px;
+  }
+  .tour-title-desk {
+    width: 121%;
+  }
+  .afro {
+    width: 100%;
+  }
+  .date {
+    width: 145%;
+    margin: 10px;
+  }
+}
